@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>암웨이 후원자 번호 | 회원가입할 때 입력하는 번호 안내</title>
+<meta name="description" content="암웨이 회원가입할 때 필요한 후원자 번호를 안내해요. 버튼을 누르면 후원자 번호를 확인할 수 있고, 가입 방법과 비회원 구매도 오픈채팅으로 도와드려요.">
+<meta name="keywords" content="암웨이 후원자 번호, 암웨이 후원자, 암웨이 회원가입, 암웨이 후원자번호, 암웨이 가입">
+<!-- 네이버 서치어드바이저 소유확인 태그를 받으면 아래 줄의 content 값을 바꿔주세요 -->
+<meta name="naver-site-verification" content="여기에_네이버_확인코드">
+<meta property="og:type" content="website">
+<meta property="og:title" content="암웨이 후원자 번호">
+<meta property="og:description" content="암웨이 회원가입할 때 필요한 후원자 번호 안내">
+<meta property="og:url" content="https://여기에-내-주소.vercel.app/">
+<link rel="canonical" href="https://여기에-내-주소.vercel.app/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"암웨이 후원자 번호는 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"암웨이 회원가입할 때 입력하는 번호로, 가입을 안내한 ABO(암웨이 사업자)의 번호예요. 가입 후 제품 상담과 주문 도움을 받을 때 이어지는 연결고리가 돼요."}},
+{"@type":"Question","name":"암웨이 후원자 번호는 어디에 입력하나요?","acceptedAnswer":{"@type":"Answer","text":"한국암웨이 공식 홈페이지나 앱에서 회원가입을 진행하면 후원자 번호를 입력하는 단계가 나와요."}},
+{"@type":"Question","name":"회원가입 없이도 암웨이 제품을 살 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"네. ABO에게 비회원 구매 링크를 받으면 회원가입 없이도 한국암웨이 공식 시스템에서 결제하고 배송받을 수 있어요."}}
+]}
+</script>
+<style>
+:root{--g:#2f6b3f;--bg:#f5f8ef;--card:#fff;--t:#222;--s:#666;--k:#fee500}
+@media (prefers-color-scheme:dark){:root{--bg:#141a14;--card:#1f261f;--t:#eee;--s:#aaa}}
+*{box-sizing:border-box}
+body{margin:0;padding:24px 16px 48px;background:var(--bg);color:var(--t);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.8;text-align:center}
+main{max-width:520px;margin:0 auto}
+h1{font-size:28px;color:var(--g);margin:24px 0 8px}
+.lead{color:var(--s);margin:0 0 24px}
+.card{background:var(--card);border-radius:20px;padding:28px 20px;margin-bottom:18px;box-shadow:0 2px 0 rgba(0,0,0,.04)}
+button{width:100%;border:0;border-radius:14px;padding:16px;font-size:18px;font-weight:700;cursor:pointer;background:var(--g);color:#fff}
+#num{display:none;margin-top:18px;font-size:30px;font-weight:800;letter-spacing:2px;color:var(--g)}
+#num small{display:block;font-size:14px;letter-spacing:0;color:var(--s);font-weight:400}
+.copy{display:none;margin-top:10px;background:#e8f3e3;color:var(--g);font-size:15px;padding:10px}
+.kakao{display:block;margin-top:12px;background:var(--k);color:#3a1d1d;text-decoration:none;border-radius:14px;padding:16px;font-size:17px;font-weight:700}
+h2{font-size:20px;color:var(--g);margin:0 0 12px}
+.faq{text-align:left}.faq h3{font-size:16px;margin:16px 0 4px}.faq p{margin:0;color:var(--s);font-size:15px}
+ol{text-align:left;padding-left:22px;margin:0;color:var(--s);font-size:15px}
+footer{color:var(--s);font-size:12px;margin-top:24px;line-height:1.6}
+</style>
+</head>
+<body>
+<main>
+<h1>암웨이 후원자 번호</h1>
+<p class="lead">회원가입할 때 입력하는 번호예요.<br>버튼을 눌러 확인해 주세요.</p>
+
+<div class="card">
+<button id="show" type="button">후원자 번호 보기</button>
+<div id="num"><span id="val"></span><small>암웨이 회원가입 시 후원자 번호 칸에 입력</small></div>
+<button id="copy" class="copy" type="button">번호 복사하기</button>
+<p style="color:var(--s);font-size:14px;margin:14px 0 0">버튼을 누르기 전에는 번호가 표시되지 않아요.</p>
+</div>
+
+<div class="card">
+<h2>💬 가입이 어렵다면 도와드릴게요</h2>
+<p style="margin:0;color:var(--s);font-size:15px">회원가입 방법, 비회원 구매 링크,<br>제품 상담까지 오픈채팅으로 편하게 물어봐 주세요.</p>
+<a class="kakao" href="https://open.kakao.com/o/skmRi1Ri" target="_blank" rel="noopener">카카오톡 오픈채팅 상담하기</a>
+</div>
+
+<div class="card">
+<h2>📝 회원가입 순서</h2>
+<ol>
+<li>한국암웨이 홈페이지(amway.co.kr)나 앱 접속</li>
+<li>오른쪽 위 '로그인/회원가입' 선택</li>
+<li>ABO 가입 또는 Member 가입 선택</li>
+<li>안내에 따라 정보 입력</li>
+<li>후원자 번호 칸에 위 번호 입력</li>
+</ol>
+</div>
+
+<div class="card faq">
+<h2 style="text-align:center">🙋 자주 묻는 질문</h2>
+<h3>Q. 암웨이 후원자 번호는 무엇인가요?</h3>
+<p>회원가입할 때 입력하는 번호로, 가입을 안내한 ABO(암웨이 사업자)의 번호예요. 가입 후 제품 상담과 주문 도움을 받을 때 연결고리가 돼요.</p>
+<h3>Q. 후원자 번호는 어디에 입력하나요?</h3>
+<p>한국암웨이 공식 홈페이지나 앱에서 회원가입을 진행하면 후원자 번호를 입력하는 단계가 나와요.</p>
+<h3>Q. 회원가입 없이도 살 수 있나요?</h3>
+<p>네. 비회원 구매 링크를 받으면 회원가입 없이도 한국암웨이 공식 시스템에서 결제하고 배송받을 수 있어요.</p>
+</div>
+
+<footer>이 페이지는 한국암웨이 ABO(사업자)가 운영하며,<br>이 번호로 가입·구매하시면 운영자가 후원수당을 받을 수 있어요.<br>한국암웨이 공식 사이트가 아니에요. 고객센터 1588-0080</footer>
+</main>
+<script>
+// 후원자 번호: 바꾸려면 아래 숫자만 고치세요
+var SPONSOR = "7028399679";
+var show=document.getElementById('show'),num=document.getElementById('num'),val=document.getElementById('val'),copy=document.getElementById('copy');
+show.onclick=function(){val.textContent=SPONSOR;num.style.display='block';copy.style.display='block';show.style.display='none';};
+copy.onclick=function(){var done=function(){copy.textContent='✔ 복사됐어요';};
+ if(navigator.clipboard){navigator.clipboard.writeText(SPONSOR).then(done,function(){prompt('번호를 복사하세요',SPONSOR);});}else{prompt('번호를 복사하세요',SPONSOR);}};
+</script>
+</body>
+</html>

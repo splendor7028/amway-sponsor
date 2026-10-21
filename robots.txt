@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://여기에-내-주소.vercel.app/sitemap.xml
